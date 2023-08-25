@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SF Pro Text';
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+}
+
+.video_call{
+    width: 100%;
+    height: 90%;
+    background-color: red;    
+    display: flex;
+}
+
+.face_shown{
+    width: 35%;
+    margin: 0 20vw;
+    height: 100%;
+    border: 1px solid white;
+}
+
+.face_shown .person_1{
+    width: 100%;
+    height: 45%;
+    border: 1px solid black;
+    margin: 1rem 0 1rem;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+}
+.face_shown .person_1 > i {
+    font-size: 2rem;
+    top: 12rem;
+    left: 1rem;
+    position: relative;
+}
+
+.face_shown .person_2 > i {
+    font-size: 2rem;
+    top: 12rem;
+    left: 1rem;
+    position: relative;
+}
+
+.face_shown .person_2{
+    width: 100%;
+    height: 45%;
+    border: 1px solid black;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.live_chat{
+    width: 30%;
+    height: 100%;
+    position: relative;
+    right: 9rem;
+    border: 1px solid green;
+    border-radius: 15px;
+    overflow:hidden;    
+    display: flex;
+    flex-direction: column;
+}
+
+.titel_live_chat{
+    font-size: 1.6rem;
+    letter-spacing: -1px;
+    font-weight: 700;
+    color: #fff;
+    border: 1px solid blue;
+}
+
+.titel_live_chat h4{    
+    position: relative;
+    left: 2rem;
+}
+.user_comments{
+    background-color: grey;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 2px 2px 0 6.5rem;
+}
+
+.user_comments h5{    
+    left: 7px;
+    position: relative;
+}
+
+.replies{    
+    background-color: grey;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 3px 2px;
+}
+
+.replies h5{
+    margin: 0 4px;
+}
+
+.reply_type{
+    position: relative;
+    justify-self: flex-end;
+}
